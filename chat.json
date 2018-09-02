@@ -1,0 +1,50 @@
+{
+  "Hacker": {
+    "name": "Hacker",
+    "default": [
+      {
+        "msg" : "I'm watching"
+      },
+      {
+        "msg" : "you can't hide"
+      }
+    ]
+  },
+  "Cibele":
+  {
+    "name": "Cibele",
+    "default":[{
+      "msg":"Hi"
+    }],
+    "greeting":[
+      {
+        "msg":"how are you?",
+        "delayMax": 3000,
+        "delayMin": 1000,
+        "typingDelay": 2000,
+        "wait": 0,
+        "done": 0, 
+        "userInput" : 0,
+        "user": "Cibele"
+      },
+      {
+        "msg":"feeling better?",
+        "delayMax": 5000,
+        "delayMin": 3000,
+        "typingDelay": 2000,
+        "wait": 0,
+        "done": 0,
+        "user": "Cibele",
+        "userInput" : 1
+      },
+      {
+        "wait" : "options",
+        "opt1" : "yeah...",
+        "opt2" : "Not really",
+        "opt3" : "Better now",
+        "done" : 0,
+        "user": "Cibele"
+      }
+    ]
+  }
+}
