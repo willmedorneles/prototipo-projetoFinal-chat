@@ -1,5 +1,6 @@
 import JsonProcessing from './jsonProcessing'
 import { getRandomInt } from './utilitys'
+import {addMensage, isTyiping, stopedTyping, showUserInput} from './domBehaviour'
 
 export default class Worker {
 
@@ -55,12 +56,16 @@ export default class Worker {
 
   execute(element, group){
     setTimeout(() => {
-      console.log('Start Typing')
+      isTyiping(element.user)
       setTimeout(() =>{
-        console.log("Stoped Typing")
-        console.log(element.msg)
+        stopedTyping(element.user)
+        addMensage(element.user, element.msg)
         if(element.userInput){
-          console.log("Wait for user input from group "+ group.toString())
+          group.forEach((mensage) =>{
+            if(mensage.wait == 'options'){
+              showUserInput(element.user, mensage)
+            }
+          })
         }
       }, element.typingDelay)
     }, getRandomInt(element.delayMin, element.delayMax))

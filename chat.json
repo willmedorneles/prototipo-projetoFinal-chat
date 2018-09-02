@@ -40,10 +40,65 @@
       {
         "wait" : "options",
         "opt1" : "yeah...",
+        "val1" : "ownerchipChange",
         "opt2" : "Not really",
+        "val2" : "ownerchipChange",
         "opt3" : "Better now",
+        "val3" : "ownerchipChange",
         "done" : 0,
         "user": "Cibele"
+      }
+    ],
+    "ownerchipChange":[
+      {
+        "msg":"I see",
+        "delayMax": 3000,
+        "delayMin": 1000,
+        "typingDelay": 2000,
+        "wait": 0,
+        "done": 0, 
+        "userInput" : 0,
+        "user": "Cibele"
+      },
+      {
+        "msg":"Just to let you know",
+        "delayMax": 5000,
+        "delayMin": 3000,
+        "typingDelay": 2000,
+        "wait": 0,
+        "done": 0,
+        "user": "Cibele",
+        "userInput" : 0
+      },
+      {
+        "msg":"I'm entering checkup for the ownerchip Change",
+        "delayMax": 6000,
+        "delayMin": 5000,
+        "typingDelay": 2000,
+        "wait": 0,
+        "done": 0,
+        "user": "Cibele",
+        "userInput" : 0
+      },
+      {
+        "msg":"May take some time",
+        "delayMax": 7000,
+        "delayMin": 6000,
+        "typingDelay": 2000,
+        "wait": 0,
+        "done": 0,
+        "user": "Cibele",
+        "userInput" : 0
+      },
+      {
+        "msg":"I'll tell you when it's over",
+        "delayMax": 9000,
+        "delayMin": 7000,
+        "typingDelay": 2000,
+        "wait": 0,
+        "done": 0,
+        "user": "Cibele",
+        "userInput" : 0
       }
     ]
   }
